@@ -10,12 +10,9 @@
 
 ## v2.x 版本(tag) 服务器运行，客户端自行扫码提取 
 > 已不受服务端和客户端在同ip的限制
-> 
 > 客户端通过浏览器打开， http://公网ip或者域名:29099/
-> 
 > 然后扫码即可提取。
 >
-> 
 ```bash
 ## linux/macos下
 chmod +x jdcookie
@@ -25,8 +22,7 @@ chmod +x jdcookie
 ## 可以直接双击运行。也可以cmd中运行
 ## cmd 中运行 参数和linux一样
 .\jdcookie.exe -d
-```
-
+...
 
 ## 编译方法
 ```bash
@@ -45,3 +41,4 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 packr2 build  -o jdcookie_darwin_arm64
 # 编译mac amd64 x64版本
 CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 packr2 build  -o jdcookie_darwin_x64
 ```
+111111
